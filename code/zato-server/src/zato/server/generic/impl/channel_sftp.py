@@ -11,7 +11,7 @@ import logging
 import os
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # sh
 import sh

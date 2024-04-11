@@ -16,7 +16,7 @@ from traceback import format_exc
 from typing import Optional as optional
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # lxml
 from lxml.etree import _Element as EtreeElement

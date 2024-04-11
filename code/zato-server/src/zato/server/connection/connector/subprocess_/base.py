@@ -21,7 +21,7 @@ from traceback import format_exc
 from wsgiref.simple_server import make_server as wsgiref_make_server
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # Requests
 from requests import post as requests_post
@@ -44,7 +44,7 @@ from zato.common.util.posix_ipc_ import ConnectorConfigIPC
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from logging import Logger
 
     Bunch = Bunch

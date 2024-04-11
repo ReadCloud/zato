@@ -16,7 +16,7 @@ import os
 from unittest import main, TestCase
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # Zato
 from zato.common import Kafka
@@ -27,7 +27,7 @@ from zato.server.generic.api.def_kafka import DefKafkaWrapper
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from pykafka import KafkaClient
     KafkaClient = KafkaClient
 

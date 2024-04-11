@@ -14,7 +14,7 @@ from logging import getLogger
 from traceback import format_exc
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # Requests
 import requests

@@ -10,7 +10,7 @@ Licensed under AGPLv3, see LICENSE.txt for terms and conditions.
 from logging import getLogger
 
 # Bunch
-from bunch import Bunch, bunchify
+from zato.bunch import Bunch, bunchify
 
 # Parse
 from parse import parse

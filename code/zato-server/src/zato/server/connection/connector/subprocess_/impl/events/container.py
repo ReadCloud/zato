@@ -22,7 +22,7 @@ from zato.server.connection.connector.subprocess_.impl.events.database import Ev
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from socket import socket
 
     Bunch = Bunch

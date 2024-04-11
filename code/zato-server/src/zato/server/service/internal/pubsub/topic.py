@@ -33,7 +33,7 @@ from zato.server.service.meta import CreateEditMeta, DeleteMeta, GetListMeta
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from sqlalchemy.orm.session import Session as SASession
     from zato.common.typing_ import any_, anydict, anytuple, stranydict, strlist
     Bunch = Bunch

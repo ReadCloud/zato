@@ -13,7 +13,7 @@ from logging import getLogger
 from operator import attrgetter
 
 # Bunch
-from bunch import Bunch # type: ignore[reportUnknownVariableType]
+from zato.bunch import Bunch # type: ignore[reportUnknownVariableType]
 
 # SimpleParsing
 from simple_parsing.docstring import get_attribute_docstring

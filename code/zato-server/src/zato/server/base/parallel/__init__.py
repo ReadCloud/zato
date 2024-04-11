@@ -91,7 +91,7 @@ from zato.server.sso import SSOTool
 
 if 0:
 
-    from bunch import Bunch as bunch_
+    from zato.bunch import Bunch as bunch_
     from zato.common.crypto.api import ServerCryptoManager
     from zato.common.ipc.client import IPCResponse
     from zato.common.odb.api import ODBManager
@@ -537,7 +537,7 @@ class ParallelServer(BrokerMessageReceiver, ConfigLoader, HTTPHandler):
     def add_pickup_conf_from_local_path(self, paths:'str', source:'str', path_patterns:'strorlistnone'=None) -> 'None':
 
         # Bunchz
-        from bunch import bunchify
+        from zato.bunch import bunchify
 
         # Local variables
         path_patterns = path_patterns or HotDeploy.Default_Patterns
@@ -625,7 +625,7 @@ class ParallelServer(BrokerMessageReceiver, ConfigLoader, HTTPHandler):
     def _add_user_conf_from_path(self, path:'str', source:'str') -> 'None':
 
         # Bunch
-        from bunch import bunchify
+        from zato.bunch import bunchify
 
         # Ignore files other than the below ones
         suffixes = ['ini', 'conf', 'yaml', 'yml']

@@ -21,7 +21,7 @@ from zato.server.service.meta import CreateEditMeta, DeleteMeta, GetListMeta
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from zato.server.service import Service
 
     Bunch = Bunch

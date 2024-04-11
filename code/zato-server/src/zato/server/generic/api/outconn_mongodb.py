@@ -13,7 +13,7 @@ from logging import getLogger
 from uuid import uuid4
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # PyMongo
 from pymongo import MongoClient

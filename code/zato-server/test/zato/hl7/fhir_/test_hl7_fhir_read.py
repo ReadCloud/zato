@@ -17,7 +17,7 @@ from time import sleep
 from unittest import main, TestCase
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # Zato
 from zato.common.test import TestCluster, TestParallelServer

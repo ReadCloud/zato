@@ -12,7 +12,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 from logging import getLogger
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # Zato
 from zato.common.api import GENERIC

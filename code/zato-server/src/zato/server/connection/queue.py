@@ -28,7 +28,7 @@ from zato.common.util.python_ import get_python_id
 
 if 0:
     from logging import Logger
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from zato.common.typing_ import any_, callable_, intnone, strnone
     from zato.server.base.parallel import ParallelServer
 

@@ -14,7 +14,7 @@ from tempfile import NamedTemporaryFile
 from traceback import format_exc
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # Zato
 from zato.common.api import SFTP
@@ -25,7 +25,7 @@ from zato.server.connection.connector.subprocess_.base import BaseConnectionCont
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
 
     Bunch = Bunch
 

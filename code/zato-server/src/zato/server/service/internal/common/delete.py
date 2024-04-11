@@ -31,7 +31,7 @@ from zato.server.service import Model, Service
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from sqlalchemy.orm import Session as SASession
     from zato.common.typing_ import strlist
     Bunch = Bunch

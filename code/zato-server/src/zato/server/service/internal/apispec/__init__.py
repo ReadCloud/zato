@@ -13,7 +13,7 @@ from json import dumps
 import os
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # Zato
 from zato.server.apispec.spec.openapi import OpenAPIGenerator

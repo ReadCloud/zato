@@ -14,7 +14,7 @@ from zato.server.base.worker.common import WorkerImpl
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from zato.server.base.worker import WorkerStore
     from zato.server.pubsub import PubSub as ServerPubSub
     ServerPubSub = ServerPubSub

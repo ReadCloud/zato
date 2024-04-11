@@ -14,7 +14,7 @@ from copy import deepcopy
 from traceback import format_exc
 
 # Bunch
-from bunch import Bunch, bunchify
+from zato.bunch import Bunch, bunchify
 
 # ConcurrentLogHandler - updates stlidb's logging config on import so this needs to stay
 try:

@@ -14,7 +14,7 @@ from time import sleep
 from traceback import format_exc
 
 # Bunch
-from bunch import Bunch
+from zato.bunch import Bunch
 
 # Zato
 from zato.common.api import EnvFile, FILE_TRANSFER

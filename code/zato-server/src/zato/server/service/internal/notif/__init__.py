@@ -11,7 +11,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 # pylint: disable=attribute-defined-outside-init
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 from copy import deepcopy
 from logging import getLogger
 

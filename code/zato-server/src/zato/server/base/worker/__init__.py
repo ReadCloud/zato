@@ -25,7 +25,7 @@ from urllib.parse import urlparse
 from uuid import uuid4
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # gevent
 import gevent
@@ -106,7 +106,7 @@ logger = logging.getLogger(__name__)
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch as bunch_
+    from zato.bunch import Bunch as bunch_
     from zato.broker.client import BrokerClient
     from zato.common.typing_ import any_, anydict, anylist, anytuple, callable_, callnone, dictnone, stranydict, tupnone
     from zato.server.base.parallel import ParallelServer

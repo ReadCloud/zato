@@ -12,7 +12,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 from arrow import get as arrow_get
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # Python 2/3 compatibility
 from zato.common.ext.future.utils import iteritems

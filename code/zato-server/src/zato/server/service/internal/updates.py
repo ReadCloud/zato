@@ -12,7 +12,7 @@ from http.client import OK
 from traceback import format_exc
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # gevent
 from gevent import sleep, spawn

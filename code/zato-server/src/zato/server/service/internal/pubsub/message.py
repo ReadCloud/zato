@@ -11,7 +11,7 @@ from contextlib import closing
 from copy import deepcopy
 
 # Bunch
-from bunch import Bunch
+from zato.bunch import Bunch
 
 # SQLAlchemy
 from sqlalchemy import and_, exists

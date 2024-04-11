@@ -7,7 +7,7 @@ Licensed under AGPLv3, see LICENSE.txt for terms and conditions.
 """
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # Zato
 from zato.common.api import FILE_TRANSFER
@@ -19,7 +19,7 @@ from zato.server.base.worker.common import WorkerImpl
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from zato.common.typing_ import tuple_
     from zato.server.base.worker import WorkerStore
     from zato.server.base.worker.generic import Generic

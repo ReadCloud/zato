@@ -31,7 +31,7 @@ from zato.server.connection.file_client.sftp import SFTPFileClient
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from zato.common.typing_ import any_, anydict, anylist
     from zato.server.connection.file_client.base import BaseFileClient
     from zato.server.connection.ftp import FTPStore

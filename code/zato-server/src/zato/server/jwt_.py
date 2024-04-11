@@ -15,7 +15,7 @@ from datetime import datetime
 from logging import getLogger
 
 # Bunch
-from bunch import bunchify, Bunch
+from zato.bunch import bunchify, Bunch
 
 # Cryptography
 from cryptography.fernet import Fernet

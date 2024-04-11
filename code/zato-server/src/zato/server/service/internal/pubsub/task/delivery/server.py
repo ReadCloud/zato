@@ -10,7 +10,7 @@ Licensed under AGPLv3, see LICENSE.txt for terms and conditions.
 from contextlib import closing
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # Zato
 from zato.common.odb.model import PubSubSubscription, Server, WebSocketClient, WebSocketClientPubSubKeys, WebSocketSubscription

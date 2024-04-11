@@ -11,7 +11,7 @@ Licensed under AGPLv3, see LICENSE.txt for terms and conditions.
 from operator import itemgetter
 
 # Bunch
-from bunch import Bunch
+from zato.bunch import Bunch
 
 # Zato
 from zato.common.util.time_ import datetime_from_ms

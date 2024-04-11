@@ -12,7 +12,7 @@ from contextlib import closing
 from logging import getLogger
 
 # Bunch
-from bunch import Bunch
+from zato.bunch import Bunch
 
 # SQLAlchemy
 from sqlalchemy import update

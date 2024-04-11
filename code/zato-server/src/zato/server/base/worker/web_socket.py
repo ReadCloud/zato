@@ -7,7 +7,7 @@ Licensed under AGPLv3, see LICENSE.txt for terms and conditions.
 """
 
 # Bunch
-from bunch import bunchify
+from zato.bunch import bunchify
 
 # Zato
 from zato.common.util.api import start_connectors, wait_for_dict_key
@@ -17,7 +17,7 @@ from zato.server.base.worker.common import WorkerImpl
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from zato.common.typing_ import any_, strdict
     from zato.server.base.worker import WorkerStore
     from zato.server.connection.connector import ConnectorStore

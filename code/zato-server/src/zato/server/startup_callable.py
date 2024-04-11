@@ -16,7 +16,7 @@ from traceback import format_exc
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
 
     Bunch = Bunch
 

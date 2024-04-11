@@ -35,7 +35,7 @@ from traceback import format_exc
 from urllib.parse import urlparse
 
 # Bunch
-from bunch import Bunch, bunchify
+from zato.bunch import Bunch, bunchify
 
 # gevent
 from gevent import sleep, socket, spawn

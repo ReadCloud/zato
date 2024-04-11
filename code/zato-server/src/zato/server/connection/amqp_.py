@@ -37,7 +37,7 @@ from zato.server.connection.connector import Connector, Inactive
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from typing import Any, Callable
 
     Any = Any

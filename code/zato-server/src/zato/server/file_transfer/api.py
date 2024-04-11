@@ -40,7 +40,7 @@ from zato.server.file_transfer.snapshot import FTPSnapshotMaker, LocalSnapshotMa
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from requests import Response
     from zato.common.typing_ import any_, anydict, anylist, list_
     from zato.server.base.parallel import ParallelServer

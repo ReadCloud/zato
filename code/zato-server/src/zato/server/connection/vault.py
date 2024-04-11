@@ -13,7 +13,7 @@ from logging import basicConfig, getLogger, INFO
 from traceback import format_exc
 
 # Bunch
-from bunch import Bunch, bunchify
+from zato.bunch import Bunch, bunchify
 
 # gevent
 from gevent import spawn

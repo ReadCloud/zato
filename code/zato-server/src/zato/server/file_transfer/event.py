@@ -20,7 +20,7 @@ from watchdog.events import DirCreatedEvent
 from zato.common.util.api import hot_deploy, spawn_greenlet
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
 
     from zato.server.file_transfer.api import FileTransferAPI
     from zato.server.file_transfer.observer.base import BaseObserver, PathCreatedEvent
