@@ -13,7 +13,7 @@ from tempfile import TemporaryDirectory
 from unittest import TestCase
 
 # Bunch
-from bunch import Bunch
+from zato.bunch import Bunch
 
 # lxml
 from lxml import etree

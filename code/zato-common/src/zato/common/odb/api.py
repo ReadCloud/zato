@@ -26,7 +26,7 @@ from sqlalchemy.sql.expression import true
 from sqlalchemy.sql.type_api import TypeEngine
 
 # Bunch
-from bunch import Bunch, bunchify
+from zato.bunch import Bunch, bunchify
 
 # Zato
 from zato.common.api import DEPLOYMENT_STATUS, GENERIC, HTTP_SOAP, MS_SQL, NotGiven, PUBSUB, SEC_DEF_TYPE, SECRET_SHADOW, \

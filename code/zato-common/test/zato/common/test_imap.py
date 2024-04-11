@@ -15,7 +15,7 @@ import os
 from unittest import main, TestCase
 
 # Bunch
-from bunch import Bunch
+from zato.bunch import Bunch
 
 # Zato
 from zato.common.api import EMAIL

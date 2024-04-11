@@ -47,7 +47,7 @@ from traceback import format_exc
 from uuid import uuid4
 
 # Bunch
-from bunch import Bunch, bunchify
+from zato.bunch import Bunch, bunchify
 
 # ciso8601
 try:

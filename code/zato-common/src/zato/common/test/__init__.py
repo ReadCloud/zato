@@ -16,7 +16,7 @@ from unittest import TestCase
 from uuid import uuid4
 
 # Bunch
-from bunch import Bunch, bunchify
+from zato.bunch import Bunch, bunchify
 
 # mock
 from mock import MagicMock, Mock

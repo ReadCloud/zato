@@ -17,7 +17,7 @@ from zato.common.crypto.api import ServerCryptoManager
 # ################################################################################################################################
 
 if 0:
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from zato.common.typing_ import callable_
 
 # ################################################################################################################################

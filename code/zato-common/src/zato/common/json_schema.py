@@ -26,7 +26,7 @@ from zato.common.util.open_ import open_r
 
 if 0:
     from typing import Callable
-    from bunch import Bunch
+    from zato.bunch import Bunch
     from zato.common.typing_ import anydict
     from zato.server.base.parallel import ParallelServer
     Bunch = Bunch

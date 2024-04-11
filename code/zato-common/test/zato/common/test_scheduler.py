@@ -15,7 +15,7 @@ from random import choice, seed
 from unittest import TestCase
 
 # Bunch
-from bunch import Bunch
+from zato.bunch import Bunch
 
 # crontab
 from crontab import CronTab

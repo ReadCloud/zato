@@ -12,7 +12,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 from unittest import TestCase
 
 # Bunch
-from bunch import Bunch
+from zato.bunch import Bunch
 
 # Nose
 from nose.tools import eq_

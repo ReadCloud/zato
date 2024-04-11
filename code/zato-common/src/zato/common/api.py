@@ -14,7 +14,7 @@ from numbers import Number
 from sys import maxsize
 
 # Bunch
-from bunch import Bunch
+from zato.bunch import Bunch
 
 # Zato
 from zato.common.defaults import http_plain_server_port
