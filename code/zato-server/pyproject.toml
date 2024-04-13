@@ -167,9 +167,9 @@ inotify-simple = { version = "1.3.5", markers = "sys_platform == 'linux'" }
 memray = { version = "1.4.1", markers = "sys_platform == 'linux'" }
 newrelic = { version = "8.4.0", markers = "sys_platform == 'linux'" }
 sh = { version = "1.14.3", markers = "sys_platform == 'linux'" }
+zato-common = { git = "https://github.com/readcloud/zato.git", branch = "main", "subdirectory" = "code/zato-common" }
+zato-cy = { git = "https://github.com/readcloud/zato.git", branch = "main", "subdirectory" = "code/zato-cy" }
 
-zato-common = { path = "../zato-common" }
-zato-cy = { path = "../zato-cy" }
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
